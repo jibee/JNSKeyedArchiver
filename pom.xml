@@ -4,6 +4,10 @@
   <artifactId>nsKeyedArchive</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>NS Keyed Archive tools</name>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <description>Deserialises classes using the NSKeyedArchive convention</description>
   <dependencies>
   	<dependency>
